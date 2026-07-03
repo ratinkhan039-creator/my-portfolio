@@ -222,5 +222,9 @@ h5{
     h5{
         font-size: 12px;
     }
+    .foot{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 }
