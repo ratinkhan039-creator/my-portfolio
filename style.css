@@ -189,7 +189,6 @@ h5{
 @media (max-width:480px){
 
     nav{
-        flex-direction:column;
         gap:15px;
     }
 
@@ -200,16 +199,10 @@ h5{
     p{
         font-size:0.95rem;
     }
-
     .my-self,
     .webdev,
     .designer{
         padding:40px 20px;
-    }
-
-    .foot{
-        flex-direction:column;
-        text-align:center;
     }
     #my-self-photo,#designer-photo{
         height: 200px;
