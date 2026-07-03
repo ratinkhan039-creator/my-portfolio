@@ -74,7 +74,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60%;
+    gap: 50%;
     height: 100%;
 }
 h5{
@@ -96,4 +96,138 @@ h5{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     border-radius: 7px;
+}
+@media(max-width:1112px){
+
+
+    h4{
+        font-size:1.8rem;
+    }
+
+    p{
+        font-size:1rem;
+    }
+
+    nav{
+        gap:110px;
+    }
+    #my-self-photo,#designer-photo{
+        height: 400px;
+    }
+    #web-dev-photo{
+        height: 300px;
+    }
+    .my-self{
+        height: 30em;
+    }
+    .webdev{
+        height: 30em;
+    }
+    .designer{
+        height: 30em;
+    }
+    h5{
+        font-size: 12px;
+    }
+}
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width:768px){
+
+    .my-self,
+    .designer{
+        flex-direction:column;
+    }
+
+    .webdev{
+        flex-direction:column-reverse;
+    }
+
+    article{
+        width:100%;
+        text-align:center;
+    }
+
+    h4{
+        font-size:1.8rem;
+    }
+
+    p{
+        font-size:1rem;
+    }
+
+    nav{
+        gap:20px;
+    }
+    #my-self-photo,#designer-photo{
+        height: 200px;
+    }
+    #web-dev-photo{
+        height: 200px;
+    }
+    .my-self{
+        height: 30em;
+    }
+    .webdev{
+        height: 30em;
+    }
+    .designer{
+        height: 30em;
+    }
+    h5{
+        font-size: 12px;
+    }
+    
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:480px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    h4{
+        font-size:1.5rem;
+    }
+
+    p{
+        font-size:0.95rem;
+    }
+
+    .my-self,
+    .webdev,
+    .designer{
+        padding:40px 20px;
+    }
+
+    .foot{
+        flex-direction:column;
+        text-align:center;
+    }
+    #my-self-photo,#designer-photo{
+        height: 200px;
+    }
+    #web-dev-photo{
+        height: 200px;
+    }
+    .my-self{
+        height: 30em;
+    }
+    .webdev{
+        height: 30em;
+    }
+    .designer{
+        height: 30em;
+    }
+    h5{
+        font-size: 12px;
+    }
+
 }
